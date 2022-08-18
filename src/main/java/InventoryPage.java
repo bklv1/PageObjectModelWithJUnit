@@ -40,4 +40,8 @@ public class InventoryPage extends BaseClass{
         }
         return isElementPresent;
     }
+
+    public void BuyAllButton(){
+       findElementWithWait(By.id("ljhngdoshnlk")).click();
+    }
 }
