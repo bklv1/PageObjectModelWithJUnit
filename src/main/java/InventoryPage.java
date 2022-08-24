@@ -12,7 +12,7 @@ public class InventoryPage extends BaseClass{
     }
 
     public void NavigateToUrl(){
-        Driver().navigate().to("https://www.saucedemo.com/inventory.html");
+        Driver().navigate().to(environment+"/inventory.html");
     }
     By addToCartOrRemove = By.xpath("//button[contains(@class, 'btn btn_')]");
     By cartCounter = By.className("shopping_cart_badge");
@@ -39,5 +39,9 @@ public class InventoryPage extends BaseClass{
             isElementPresent= false;
         }
         return isElementPresent;
+    }
+
+    public void BuyAllButton(){
+       findElementWithWait(By.id("ljhngdoshnlk")).click();
     }
 }

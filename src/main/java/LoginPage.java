@@ -14,7 +14,7 @@ public class LoginPage extends BaseClass{
     }
 
     public void NavigateToUrl(){
-        Driver().navigate().to("https://www.saucedemo.com");
+        Driver().navigate().to(environment);
     }
     By username = By.id("user-name");
     By password = By.id("password");
