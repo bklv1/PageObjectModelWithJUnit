@@ -36,6 +36,7 @@
             <artifactId>commons-io</artifactId>
             <version>2.11.0</version>
         </dependency>
+<<<<<<< HEAD
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
         <dependency>
@@ -44,6 +45,8 @@
             <version>3.1.5</version>
         </dependency>
 
+=======
+>>>>>>> 250fee974a33313f2a75ff5f14c3b7e23d1709cb
 
     </dependencies>
 </project>
